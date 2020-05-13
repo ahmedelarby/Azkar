@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Azkar</string>
+    <string name="informtion">Name // AhmedELarby</string>
+    <string name="call">Yahoo // ahmedelarby53@yahoo.com</string>
+    <string name="call2">facebook // https://www.facebook.com/ahmed.elarby.351</string>
+    <string name="informtiom2">Version number // 1.0.0</string>
+    <string name="informtion3">Program name // ِAzkar</string>
+    <string name="call3">Google // ahmedelarby53@gmail.com</string>
+    <string name="call4">phone number //+20 01001805905 -- 01110327110</string>
+    <string name="call5">WhatsApp // +20 01001805905</string>
+    <string name="about">اظهار معلومات البرنامج</string>
+    <string name="btncall">اظهار معلومات الاتصال</string>
+</resources>

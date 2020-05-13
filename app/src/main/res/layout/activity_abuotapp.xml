@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".abuotapp"
+    android:background="@drawable/main"
+    >
+    <com.jetradarmobile.snowfall.SnowfallView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:snowflakesNum="5"
+        app:snowflakeAlphaMin="200"
+        app:snowflakeAlphaMax="300"
+        app:snowflakeAngleMax="5"
+        app:snowflakeSizeMin="200dp"
+        app:snowflakeSizeMax="10dp"
+        app:snowflakeSpeedMin="4"
+        app:snowflakeSpeedMax="12"
+        app:snowflakesFadingEnabled="true"
+        app:snowflakesAlreadyFalling="false"
+        app:snowflakeImage="@drawable/nnn"/>
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="296dp"
+        android:layout_height="136dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#F8D10C"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:textColor="#F7DF0B"
+        android:id="@+id/t2"
+        android:layout_width="390dp"
+        android:layout_height="244dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t1"
+        app:layout_constraintVertical_bias="0.626" />
+
+    <Button
+        android:id="@+id/but010"
+        android:layout_width="195dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/btn1"
+        android:onClick="show"
+        android:text="@string/about"
+        android:textColor="#FADC11"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/t2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t1"
+        app:layout_constraintVertical_bias="0.482" />
+
+    <Button
+        android:onClick="show2"
+        android:background="@drawable/btn1"
+        android:gravity="center"
+        android:textColor="#FAD712"
+        android:textSize="30dp"
+        android:id="@+id/button012"
+        android:layout_width="387dp"
+        android:layout_height="76dp"
+        android:text="@string/btncall"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t2"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

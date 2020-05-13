@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".azkar_elsbah"
+    android:background="@drawable/main">
+
+    <com.jetradarmobile.snowfall.SnowfallView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:snowflakesNum="250"
+        app:snowflakeAlphaMin="150"
+        app:snowflakeAlphaMax="255"
+        app:snowflakeAngleMax="5"
+        app:snowflakeSizeMin="8dp"
+        app:snowflakeSizeMax="32dp"
+        app:snowflakeSpeedMin="4"
+        app:snowflakeSpeedMax="12"
+        app:snowflakesFadingEnabled="true"
+        app:snowflakesAlreadyFalling="false"
+        app:snowflakeImage="@drawable/nnn"/>
+
+    <Button
+        android:onClick="play_mahary"
+        android:id="@+id/play_m"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/ic_play"
+        android:textColor="#B0B8B8"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@+id/mashre"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/stop_m"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/ic_stop"
+        android:onClick="stop_mahary"
+        android:textColor="#FFB701"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+    android:id="@+id/mashre"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn1"
+    android:text="مشاري راشد"
+    android:textColor="#FFB701"
+    android:textSize="30dp"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_marginTop="85dp"
+    app:layout_constraintStart_toStartOf="parent"
+    />
+
+    <Button
+        android:onClick="play_ahmed"
+        android:id="@+id/play_a"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="168dp"
+        android:background="@drawable/ic_play"
+        android:textColor="#B0B8B8"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@+id/ahmed"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/stop_a"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="168dp"
+        android:background="@drawable/ic_stop"
+        android:onClick="stop_ahmed"
+        android:textColor="#FFB701"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ahmed"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn1"
+        android:text="احمد العجمي"
+        android:textColor="#FFB701"
+        android:textSize="30dp"
+        app:layout_constraintTop_toTopOf="@id/mashre"
+        android:layout_marginTop="85dp"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <Button
+        android:id="@+id/mohmed"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn1"
+        android:text="محمد جبريل"
+        android:textColor="#FFB701"
+        android:textSize="30dp"
+        app:layout_constraintTop_toTopOf="@id/ahmed"
+        android:layout_marginTop="85dp"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <Button
+        android:onClick="play_mohmed"
+        android:id="@+id/play_d"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="252dp"
+        android:background="@drawable/ic_play"
+        android:textColor="#B0B8B8"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@+id/mohmed"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:onClick="stop_mohmed"
+        android:id="@+id/stop_d"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="252dp"
+        android:background="@drawable/ic_stop"
+        android:textColor="#FFB701"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/btn1"
+        android:onClick="exit"
+        android:text="Exit"
+        android:textColor="#EE0606"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toEndOf="@+id/back"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/btn1"
+        android:onClick="Back_to_main_menu"
+        android:text="Back "
+        android:textColor="#F56E06"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
